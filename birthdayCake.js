@@ -42,7 +42,7 @@ function birthdayCakeCandles(candles) {
     }
   }
 
-  // loop through array of candles initally and calculate the highest count seen 
+  // loop through array of candles again and calculate the num of those counts
   for (let i = 0; i < arrLen; i++) {
     if (candles[i] === highest) {
       highestCount += 1;
